@@ -1,0 +1,66 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyst Detection</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <h1>Cyst Detection</h1>
+  <main>
+    <section class="upload-section">
+      <h2>Upload an Image</h2>
+      <input type="file" id="image-upload" accept="image/*">
+      <button onclick="classifyImage()">Classify</button>
+    </section>
+    <section class="result-section">
+      <h2>Classification Result</h2>
+      <div id="result"></div>
+    </section>
+    <section class="highlighted-section">
+      <h2>Highlighted Cysts</h2>
+      <img id="highlighted-image" src="" alt="Highlighted Cysts">
+    </section>
+  </main>
+  <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyst Detection</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <h1>Cyst Detection</h1>
+  <main>
+    <section class="upload-section">
+      <h2>Upload an Image</h2>
+      <input type="file" id="image-upload" accept="image/*">
+      <button onclick="classifyImage()">Classify</button>
+    </section>
+    <section class="result-section">
+      <h2>Classification Result</h2>
+      <div id="result"></div>
+    </section>
+    <section class="highlighted-section">
+      <h2>Highlighted Cysts</h2>
+      <!-- Add an image element to display the highlighted image -->
+      <img id="highlighted-image" src="" alt="Highlighted Cysts">
+    </section>
+  </main>
+  <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+  <script>
+    // Function to handle the display of the highlighted image
+    function displayHighlightedImage(imagePath) {
+      const highlightedImage = document.getElementById('highlighted-image');
+      highlightedImage.src = imagePath;
+    }
+  </script>
+</body>
+</html>
