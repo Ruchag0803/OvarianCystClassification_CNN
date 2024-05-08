@@ -27,13 +27,10 @@ This project aims to develop a Polycystic Ovary Syndrome (PCOS) detection system
 ## Video and Output Images
 
 The project includes a video file demonstrating the PCOS detection system in action. Additionally, output images generated during the process are stored in appropriate directories within the project structure.
-<video width="640" height="360" controls>
-  <source src="videos/OCC_CNN.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+Working Video is in working folder
 
 <h3>Non-infected Image</h3>
-<img src="https://github.com/Ruchag0803/OvarianCystClassification_CNN/assets/112757983/43c3dfea-3a36-4f2a-b0ae-1d1f0ed760c5" alt="Non-infected Image" width="500" height="500">
+<img src="https://github.com/Ruchag0803/OvarianCystClassification_CNN/assets/112757983/43c3dfea-3a36-4f2a-b0ae-1d1f0ed760c5" alt="Non-infected Image" width="800" height="500">
 
 <h3>Infected Image</h3>
-<img src="https://github.com/Ruchag0803/OvarianCystClassification_CNN/assets/112757983/1a4e745e-5c82-4048-ae8f-3ce158c53707" alt="Infected Image" width="500" height="500">
+<img src="https://github.com/Ruchag0803/OvarianCystClassification_CNN/assets/112757983/1a4e745e-5c82-4048-ae8f-3ce158c53707" alt="Infected Image" width="600" height="500">
